@@ -1,7 +1,7 @@
-const htmlRoutes = require('./02-Homework/Develop/routes/htmlRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 const express = require('express');
 const app = express();
-const apiRoutes = require('./02-Homework/Develop/routes/apiRoutes');
+const apiRoutes = require('./routes/apiRoutes');
 const PORT = process.env.PORT || 3000;
 
 // Folder to retrieve CSS and JS Files

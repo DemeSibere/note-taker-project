@@ -10,7 +10,7 @@ let notesData;
 // GET request
 app.get("/notes", (req, res) => {
     // Reads the notes from JSON file
-    readFileAsync("./02-Homework/Develop/db/db.json", "utf8").then(function (data) {
+    readFileAsync("db/db.json", "utf8").then(function (data) {
         // Parse data to get an array of objects
         notesData = JSON.parse(data);
         //
@@ -20,7 +20,7 @@ app.get("/notes", (req, res) => {
 
 // POST  request
 app.post("/notes", (req, res) => {
-    readFileAsync("02-Homework/Develop/db/db.json", "utf8").then(function (data) {
+    readFileAsync("db/db.json", "utf8").then(function (data) {
         // Parse data to get an array of objects
         notesData = JSON.parse(data);
 
@@ -33,7 +33,7 @@ app.post("/notes", (req, res) => {
 
         notesData = JSON.stringify(notesData);
 
-        writeFileAsync("02-Homework/Develop/db/db.json", notesData).then(function (data) {
+        writeFileAsync("db/db.json", notesData).then(function (data) {
             console.log("Note has been added.");
         });
         res.json(notesData);
