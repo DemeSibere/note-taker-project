@@ -10,7 +10,7 @@ router.get("/notes", (req, res) => {
 
 // Return to Homepage
 router.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "../public/index.html"));
+    res.sendFile(path.join(__dirname, "../index.html"));
     // console.log("router get htmlroutes index.html");
 });
 
