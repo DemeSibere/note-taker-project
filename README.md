@@ -61,11 +61,14 @@ THEN I am presented with empty fields to enter a new note title and the note’s
     - To find the deployed application on heroku, Click 👉 [here](https://glacial-temple-36620.herokuapp.com/)
 
 ## Installation 
-npm i express 
+``
+npm i express ``
 
 ## Licence
 
-[MIT](https://opensource.org/licenses/MIT)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+
+
 
 ## Question
 For inquiries related to repo and additional questions
