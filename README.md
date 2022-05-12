@@ -8,6 +8,16 @@ This application will use an Express.js back end and will save and retrieve note
 The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
 
 
+## Table of Contents
+
+- [Discription](#discription)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Functionality](#functionality)
+- [Installation](#installation)
+- [Licence](#licence)
+- [Questions](#question)
+
 ## User Story
 
 ```
@@ -35,14 +45,31 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 
+## Functionality 
 
-<!-- ## Mock-Up
+- Find the functionality of the application below:
 
-The following images show the web application's appearance and functionality:
+    ##### Screenshot
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo-01.png)
+    ![Screenshot of the application](./Assets/img-note-taker.png)
 
-![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./Assets/11-express-homework-demo-02.png)
- -->
+    ##### GIF
+    ![Note Taker](./Assets/note-taker.gif)
 
+    ##### Deployed page
 
+    - To find the deployed application on heroku, Click 👉 [here](https://glacial-temple-36620.herokuapp.com/)
+
+## Installation 
+npm i express 
+
+## Licence
+
+[MIT](https://opensource.org/licenses/MIT)
+
+## Question
+For inquiries related to repo and additional questions
+
+Reach out to me on Github: [DemeSibere](https://github.com/DemeSibere)
+
+Email me: demesibere16@gmail.com 
